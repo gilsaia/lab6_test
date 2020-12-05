@@ -28,7 +28,7 @@
     - 默认将过程中错误提示写到`err.log`中
 - `make arm` 命令会将平台变更为arm平台
     - 翻译汇编代码命令变更为`arm-linux-gnueabi-gcc -static file.s -o file.out`
-    - 测试程序命 令变更为`qemu-arm file.out <file.in >file.output`
+    - 测试程序命令变更为`qemu-arm file.out <file.in >file.output`
 - `make l1/2/3`命令单独测试不同等级样例
 - `make arm-l1/2/3` 命令在arm平台下单独测试不同等级不同样例
 - `make noerrlog` 命令将所有报错直接在终端输出
