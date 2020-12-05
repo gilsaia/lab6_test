@@ -1,4 +1,5 @@
 test.cpp
+*.log
 test/*/*.out
 test/*/*.output
 test/*/*.res

@@ -25,11 +25,13 @@
     - 默认测试所有等级下所有样例 
     - 默认翻译汇编代码命令为`gcc file.s -m32 -o file.out`
     - 默认测试程序的命令为`qemu-i386 file.out <file.in >file.output`
+    - 默认将过程中错误提示写到`err.log`中
 - `make arm` 命令会将平台变更为arm平台
     - 翻译汇编代码命令变更为`arm-linux-gnueabi-gcc -static file.s -o file.out`
     - 测试程序命 令变更为`qemu-arm file.out <file.in >file.output`
 - `make l1/2/3`命令单独测试不同等级样例
 - `make arm-l1/2/3` 命令在arm平台下单独测试不同等级不同样例
+- `make noerrlog` 命令将所有报错直接在终端输出
 - `make type` 命令进行**类型检查**工作 对所有类型检查代码分别运行`./main.out <file.c >file.res`
 - `make std` 命令检查所有样例(不包括类型检查) 对无输入文件的样例创建对应输入文件
 - `make different` 命令对所有样例(不包括类型检查) 对未拷贝的代码拷贝出一份对应`.sy`文件 具体作用我们后文会提到

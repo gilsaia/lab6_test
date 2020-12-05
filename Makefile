@@ -16,6 +16,8 @@ arm-l2:
 	./test.out --target arm --level 2
 arm-l3:
 	./test.out --target arm --level 3
+noerrlog:
+	./test.out --errorlog
 type:
 	./test.out --type
 std:
