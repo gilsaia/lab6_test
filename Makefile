@@ -10,12 +10,16 @@ l2:
 	./test.out --level 2
 l3:
 	./test.out --level 3
+l4:
+	./test.out --level 4
 arm-l1:
 	./test.out --target arm --level 1
 arm-l2:
 	./test.out --target arm --level 2
 arm-l3:
 	./test.out --target arm --level 3
+arm-l4:
+	./test.out --target arm --level 4
 noerrlog:
 	./test.out --nolog
 type:
