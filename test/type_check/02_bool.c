@@ -1,3 +1,6 @@
+/*
+* a+2 transform to boolean (or just error)
+*/
 int main(){
     int a;
     a=10;

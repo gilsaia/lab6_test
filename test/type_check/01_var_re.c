@@ -1,3 +1,6 @@
+/*
+* a redefine
+*/
 int main(){
     int a;
     a=10;
