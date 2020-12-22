@@ -4,4 +4,5 @@ int main(){
     int c;
     c=-a;
     printf("test:%d\n",c);
+    return 0;
 }

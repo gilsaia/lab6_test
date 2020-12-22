@@ -8,4 +8,5 @@ int main(){
     }else{
         printf("Failed\n");
     }
+    return 0;
 }
