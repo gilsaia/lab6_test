@@ -1,6 +1,6 @@
+int a;
+int b;
 int main(){
-    int a;
-    int b;
     scanf("%d",&a);
     scanf("%d",&b);
     if(a>=b){

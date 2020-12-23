@@ -1,5 +1,5 @@
+int a;
 int main(){
-    int a;
     scanf("%d",&a);
     while(a>0){
         a=a-1;

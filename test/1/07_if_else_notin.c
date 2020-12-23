@@ -1,5 +1,5 @@
+int a;
 int main(){
-    int a;
     a=10;
     if(a>16){
         a-=20;

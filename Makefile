@@ -22,6 +22,8 @@ arm-l4:
 	./test.out --target arm --level 4
 noerrlog:
 	./test.out --nolog
+diffcheck:
+	./test.out --diffcheck
 type:
 	./test.out --type
 std:

@@ -1,8 +1,12 @@
+char s;
+char t;
+char a;
+char r;
 int main(){
-    char s='9';
-    char t='\t';
-    char a='t';
-    char r='\n';
+    s='9';
+    t='\t';
+    a='t';
+    r='\n';
     t='a';
     printf("%c",s);
     printf("%c",t);

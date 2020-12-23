@@ -1,6 +1,6 @@
 // comment line
+int a;
 int main(){
-    int a;
     a=2;
     /**
      * a=15;
