@@ -14,6 +14,7 @@
 - `file.in` 测试输入
 - `file.output` 测试输出
 - `file.s` 同学们的程序输出的汇编代码
+- `file_std.s` 通过官方编译器得到的参考汇编代码
 - `file.out` 根据同学们翻译出的汇编代码经过编译器翻译得到的程序
 - `file_std.out` 通过官方编译器编译得到的标准程序
 - `file_std.output` 标准输出 作为对照使用

@@ -1,4 +1,3 @@
-test.cpp
 *.log
 test/*/*.out
 test/*/*.output
